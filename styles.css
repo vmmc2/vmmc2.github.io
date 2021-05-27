@@ -1,0 +1,41 @@
+body{
+    background-color: #23252F;
+    color: #ffffff;
+}
+
+#biography{
+    padding: 5% 5%;
+}
+
+#skills{
+    padding: 2% 5%;
+}
+
+#awards{
+    padding: 0% 5%;
+}
+
+.photo-contacts{
+    text-align: center;
+}
+
+.personal-name h5{
+    margin-top: 16px;
+    font-size: 25px;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 300px;
+}
+
+.contact-item{
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+.contact-item:hover{
+    color:rgba(141, 3, 3, 0.918);
+}
