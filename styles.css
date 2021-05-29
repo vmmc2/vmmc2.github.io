@@ -1,18 +1,32 @@
 body{
-    background-color: #23252F;
+    background-color: #272935;
     color: #ffffff;
+    font-family: 'Poppins', sans-serif;
 }
 
 #biography{
     padding: 5% 5%;
+    background-color: #23252F;
 }
 
 #skills{
     padding: 2% 5%;
+    background-color: #272935;
 }
 
 #awards{
-    padding: 0% 5%;
+    background-color: #23252F;
+    padding: 2% 5%;
+}
+
+#footer{
+    margin: 5% 5%;
+    text-align: center;
+    background-color: #272935;
+}
+
+#footer:h4{
+    margin-bottom: 0%;
 }
 
 .photo-contacts{
@@ -21,12 +35,18 @@ body{
 
 .personal-name h5{
     margin-top: 16px;
+    margin-left: -20%;
     font-size: 25px;
 }
 
 .profile-pic{
+    margin-left: -20%;
     border-radius: 100%;
     width: 300px;
+}
+
+.contact-me{
+    margin-left: -20%;
 }
 
 .contact-item{
@@ -36,6 +56,27 @@ body{
     margin-bottom: 16px;
 }
 
-.contact-item:hover{
-    color:rgba(141, 3, 3, 0.918);
+.biography{
+    font-size: 60px;
+}
+
+.interests{
+    font-size: 42px;
+}
+
+.education{
+    font-size: 42px;
+}
+
+.ele-school{
+    margin-top: 5%;
+}
+
+.school-history{
+    font-size: 18px;
+}
+
+
+.awards-list{
+    margin-left: 6%;
 }
