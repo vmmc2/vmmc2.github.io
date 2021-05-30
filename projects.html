@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- IMPORTS-->
+        <!-- Bootstrap 4.6.x -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Personal Styles -->
+        <link rel="stylesheet" href="styles.css">
+
+        <title> Victor Costa </title>
+    </head>
+
+    <body>
+        <section id="title">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+                <a class="navbar-brand" href="index.html"> Victor Costa </a> 
+        
+                <!-- botao que aparece quando uma parte selecionada da navbar colapsar -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- esse div indica oq vai ser colapsado dentro da navbar -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto"> <!-- A tag "ml-auto" serve para dar o maximo de espaco possivel para a margin-left, de forma a jogar o conteudo para o maximo a direita na tela. -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"> Skills </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"> Awards </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html"> Experience </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html"> Projects </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <section id="projects-intro">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1> Projects </h1>
+                        <p> Here you can find a list of the most memorable projects that I've made during my time as an undergraduate student. Whether it's a university project or a personal one, </br> I always try to experiment with new programming languages and other technologies. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects-table">
+            <!-- Qtd de projetos: 11  -- Ordem: Do mais importante ao menos importante. --> 
+            <div class="container-fluid">
+                <div class="row project-row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100">
+                            <img src="project_images/vulcan_logo.png" class="card-img-top" alt="Foto do Projeto" style="width: 425px; height: 207px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Vulcan </h5>
+                                <p class="card-text"> 
+                                    "Vulcan" is a development environment that </br>
+                                    unites an editor, an assembler and a </br>
+                                    simulator for programming in RISC-V </br>
+                                    Assembly language. It  has support for </br>
+                                    several extensions of the RISC-V ISA. Also </br>
+                                    made a built-in debugger, so the users can </br>
+                                    easily find syntax errors in their code. 
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with Dart and Flutter. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100">
+                            <img src="project_images/adotaai_logo.png" class="card-img-top" alt="Foto do Projeto">
+                            <div class="card-body">
+                                <h5 class="card-title"> Adota.ai </h5>
+                                <p class="card-text">
+                                    "Adota.ai" is an MVP application that aims </br>
+                                    to be a platform capable of facilitating </br>
+                                    the divulgation of pets available for </br> 
+                                    adoption as well as the advertising of </br>
+                                    events focused on adoption. 
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with: JavaScript, HTML, CSS and Bootstrap. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100">
+                            <img src="project_images/thenotebook_logo.png" class="card-img-top" alt="Foto do Projeto" style="width: 400px; height: 200px; margin-left: 15px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> The Notebook </h5>
+                                <p class="card-text">
+                                    "The Notebook" is a collection of algorithms </br>
+                                    and data structures that can be used to </br>
+                                    solve different classes of problems. It </br>
+                                    also has explanations about how some of </br>
+                                    these A&DS work in detail. The whole </br>
+                                    objective of the project is to provide </br>
+                                    a clear explanation for other people </br>
+                                    wanting to learn more about the subject, </br>
+                                    prepare to coding interview or take </br>
+                                    part in programming contests.
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with C++ and Python. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project-row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100">
+                            <img src="project_images/cingames_logo.jpg" class="card-img-top" alt="Foto do Projeto" style="width: 425px; height: 207px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> CIn Games </h5>
+                                <p class="card-text">
+                                    "CIn Games" implements different games that </br>
+                                    can be played at the Altera DE2i-150 FPGA </br> 
+                                    board. Worked on the development of the </br>
+                                    Genius game and was also responsible to </br>
+                                    develop the device driver, in order to make </br>
+                                    these games playable on the FPGA board.
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with C, C++ and MakeFile. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100">
+                            <img src="project_images/procom_logo.jpg" class="card-img-top" alt="Foto do Projeto" style="width: 425px; height: 207px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Invaders Must Die </h5>
+                                <p class="card-text">
+                                    "Invaders Must Die" is a Python module that 
+                                    implements a secure communication protocol 
+                                    in a Client-Server architecture over the TCP 
+                                    layer. The protocol is aimed for the Linux O.S
+                                    and for voting systems. It is divided in 3 
+                                    stages: "Handshake", "Generate Symmetric Key" 
+                                    and "Vote Session".
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with Python. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100">
+                            <img src="project_images/cp_logo.png" class="card-img-top" alt="Foto do Projeto" style="width: 425px; height: 207px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Competitive Programming </h5>
+                                <p class="card-text">
+                                    It’s compilation of solutions for several problems 
+                                    about algorithms and data structures from different 
+                                    online judges such as: UVa, Codeforces, SPOJ and more.
+                                    It was made in order to help other competitors solve 
+                                    these types of problems.
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with C++ and Python. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row project-row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100" style="visibility: hidden;">
+                            <img src="..." class="card-img-top" alt="Foto do Projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark">
+                            <img src="project_images/gasolina_logo.png" class="card-img-top h-100" alt="Foto do Projeto" style="width: 425px; height: 190px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Gasolina: Greve Infinita </h5>
+                                <p class="card-text">
+                                    "Gasolina: Greve Infinita" is an online battle royale
+                                    game that can be played by at most 4 players in a local
+                                    server. After the development, the game was tested by
+                                    freshman students. </br>
+                                    Responsible for the game art and for the development some 
+                                    of the mechanics of the game.
+                                </p>
+                                <p class="card-text"><small class="text-muted"> Made with C and MakeFile. </small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="card text-white bg-dark h-100" style="visibility: hidden;">
+                            <img src="..." class="card-img-top" alt="Foto do Projeto">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+            
+        </section>
+
+        <section id="footer-project">
+            <h5> Made with ❤️ and Bootstrap 4.6.0 </h5>
+            <p> © Copyright 2021 - Victor Miguel de Morais Costa </p>
+        </section>
+
+        <!-- IMPORTS -->
+        <!-- Bootstrap 4.6.x -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
