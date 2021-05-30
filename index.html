@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- IMPORTS-->
+        <!-- Bootstrap 4.6.x -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- Personal Styles -->
+        <link rel="stylesheet" href="styles.css">
+
+        <title> Victor Costa </title>
+    </head>
+
+    <body>
+        <section id="title">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+                <a class="navbar-brand" href=""> Victor Costa </a> 
+        
+                <!-- botao que aparece quando uma parte selecionada da navbar colapsar -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- esse div indica oq vai ser colapsado dentro da navbar -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto"> <!-- A tag "ml-auto" serve para dar o maximo de espaco possivel para a margin-left, de forma a jogar o conteudo para o maximo a direita na tela. -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills"> Skills </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#awards"> Awards </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="experiences.html"> Experience </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html"> Projects </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ctt-me"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+
+        <section id="biography">
+            <div class="container-fluid">
+                <div class="row"> <!-- Minha foto na primeira coluna. Uma breve descricao na segunda coluna-->
+                    <div class="col-lg-4 col-sm-12 photo-contacts">
+                        <img class="profile-pic" src="profilepic.jpg" alt="Minha foto deveria estar aqui!">
+                        <div class="personal-name">
+                            <h5> Victor Miguel </br> de Morais Costa </h5>
+                        </div>
+                        <div class="contact-me" id="ctt-me">
+                            <a href="">
+                                <i class="far fa-envelope fa-3x contact-item" href=""></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/victor-miguel-de-morais-costa-3200b6175/">
+                                <i class="fab fa-linkedin-in fa-3x contact-item" href=""></i>
+                            </a>
+                            <a href="https://github.com/vmmc2">
+                                <i class="fab fa-github fa-3x contact-item" href=""></i>
+                            </a>
+                            <a href="https://codeforces.com/profile/meatpl0w">
+                                <i class="far fa-keyboard fa-3x contact-item" href=""></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-sm-12">
+                        <h1 class="biography"> Biography </h1>
+                        <p> I am an undergraduate student in Computer Engineering at Centro de Informática (CIn) of the Universidade Federal de Pernambuco (UFPE), 
+                            located in Brazil. My main work interests are in Machine Learning and Web Development.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h2 class="interests"> Interests </h2>
+                                <h4 class="specific-interests"> Work Interests </h4>
+                                <ul class="work-interests-list">
+                                    <li> Machine Learning </li>
+                                    <li> Web Development (Focused on Front End) </li>
+                                </ul>
+                                <h4 class="specific-interests"> Personal Interests </h4>
+                                <ul class="personal-interests-list">
+                                    <li> Competitive Programming </li>
+                                    <li> Algorithms and Data Structures </li>
+                                    <li> RISC-V </li>
+                                    <li> Haskell </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2 class="education"> Education </h2>
+                                <ul class="fa-ul">
+                                    <li class="ele-school">
+                                        <span class="fa-li"> <i class="fas fa-graduation-cap"></i> </span>
+                                        <strong class="school-history"> B.Sc. in Computer Engineering </br> (2018 - 2022) </strong> </br>
+                                        Universidade Federal de Pernambuco, Brazil
+                                    </li>
+                                    <li class="ele-school">
+                                        <span class="fa-li"> <i class="fas fa-graduation-cap"></i> </span>
+                                        <strong class="school-history"> High School (2013 - 2015) </strong> </br>
+                                        Colégio Militar de Campo Grande, Brazil
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container-fluid">
+                <h1> Skills </h1>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h2> Programming </h2>
+                        <ul class="frameworks-list">
+                            <li> C </li>
+                            <li> C++ </li>
+                            <li> Java</li>
+                            <li> Python </li>
+                            <li> JavaScript </li>
+                            <li> HTML </li>
+                            <li> CSS </li>
+                            <li> Haskell </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2> Frameworks </h2>
+                        <ul class="frameworks-list">
+                            <li> Flutter </li>
+                            <li> Bootstrap </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2> Technologies </h2>
+                        <ul class="technologies-list">
+                            <li> Android Studio </li>
+                            <li> Git </li>
+                            <li> GitHub </li>
+                            <li> Visual Studio Code</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <h2> Languages </h2>
+                        <ul class="languages-list">
+                            <li> Portuguese (Native) </li>
+                            <li> English (Fluent) </li>
+                            <li> French (Beginner) </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="awards">
+            <div class="container-fluid">
+                <h1> Awards </h1>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2> 2021 </h2>
+                        <ul class="awards-list fa-ul">
+                            <li>
+                                <span class="fa-li"> <i class="fas fa-trophy"></i> </span> 3rd Place (in Brazil) - Google Hashcode 2021 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2> 2020 </h2>
+                        <ul class="awards-list fa-ul">
+                            <li>   
+                                <span class="fa-li"> <i class="fas fa-trophy"></i> </span> 3rd Place - 2D Simulation Category in Brazilian Robotics Competition/CBR 2020 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2> 2019 </h2>
+                        <ul class="awards-list fa-ul">
+                            <li> 
+                                <span class="fa-li"> <i class="fas fa-trophy"></i> </span> 4th Place - Microsoft Hackathon: "Bot-a-ndo a </br> mão na massa" 2019 
+                            </li>
+                            <li> 
+                                <span class="fa-li"> <i class="fas fa-trophy"></i> </span> 14th Place (in Brazil) - Google Hashcode 2019 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer">
+            <h5> Made with ❤️ and Bootstrap 4.6.0 </h5>
+            <p> © Copyright 2021 - Victor Miguel de Morais Costa </p>
+        </section>
+
+        <!-- IMPORTS -->
+        <!-- Bootstrap 4.6.x -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>

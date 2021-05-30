@@ -1,0 +1,293 @@
+/* index.html */
+
+body{
+    background-color: #272935;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#biography{
+    padding: 5% 5%;
+    background-color: #23252F;
+}
+
+#skills{
+    padding: 2% 5%;
+    background-color: #272935;
+}
+
+#awards{
+    background-color: #23252F;
+    padding: 2% 5%;
+}
+
+#footer{
+    margin: 5% 5%;
+    text-align: center;
+    background-color: #272935;
+}
+
+#footer:h4{
+    margin-bottom: 0%;
+}
+
+.photo-contacts{
+    text-align: center;
+}
+
+.personal-name h5{
+    margin-top: 16px;
+    margin-left: -20%;
+    font-size: 25px;
+}
+
+.profile-pic{
+    margin-left: -20%;
+    border-radius: 100%;
+    width: 300px;
+}
+
+.contact-me{
+    margin-left: -20%;
+}
+
+.contact-item{
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+.biography{
+    font-size: 60px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.interests{
+    font-size: 42px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.education{
+    font-size: 42px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.ele-school{
+    margin-top: 5%;
+}
+
+.school-history{
+    font-size: 18px;
+}
+
+
+.awards-list{
+    margin-left: 6%;
+}
+
+@media (max-width: 990px){
+    .profile-pic{
+        margin-left: 0%;
+    }
+    .personal-name{
+        margin-left: 15%;
+    }
+    .contact-me{
+        margin-left: 0%;
+    }
+}
+
+/* projects.html */
+#projects-intro{
+    background-color: #23252F;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+#projects-table{
+    background-color: #272935;
+    text-align: left;
+    padding: 2% 5%;
+    padding-bottom: 6%;
+}
+
+#footer-project{
+    padding-top: 5%;
+    padding-bottom: 4%;
+    text-align: center;
+    background-color: #23252F;
+}
+
+.project-row{
+    margin-top: 5%;
+}
+
+.project-column{
+    margin-bottom: 5%;
+}
+
+.project-card{
+    margin: 5%;
+}
+
+/* experiences.html */
+#experiences-intro{
+    background-color: #23252F;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+#tl{
+    padding: 2% 5%;
+}
+
+#footer-experiences{
+    background-color: #23252F;
+    text-align: center;
+    padding: 5% 5%;
+}
+
+#content{
+    background-color: 272935;
+}
+
+.card-body{
+    background-color: #272935;
+}
+
+.timeline {
+    border-left: 3px solid #727cf5;
+    margin-left: 5px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    background: #272935;
+    margin: 0 auto;
+    letter-spacing: 0.2px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 50px;
+    list-style: none;
+    text-align: left;
+    max-width: 40%;
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 98%;
+        padding: 25px;
+    }
+}
+
+.timeline h1 {
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.timeline h2{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.timeline h3 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.timeline p{
+    font-size: 1.0rem;
+    margin-bottom: 10px;
+}
+
+.timeline .event {
+    margin-left: -15px;
+    border-bottom: 1px dashed #e8ebf1;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    width: 600px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event {
+        padding-top: 30px;
+    }
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -207px;
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+.timeline .event:after {
+    -webkit-box-shadow: 0 0 0 3px #727cf5;
+    margin-left: 15px;
+    box-shadow: 0 0 0 3px #727cf5;
+    left: -55.8px;
+    background: #ffffff;
+    border-radius: 50%;
+    height: 9px;
+    width: 9px;
+    content: "";
+    top: 5px;
+}
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+.rtl .timeline {
+    margin-left: 10px;
+    border-left: 0;
+    text-align: right;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-right: 3px solid #727cf5;
+}
+
+.rtl .timeline .event::before {
+    left: 0;
+    right: -170px;
+}
+
+.rtl .timeline .event::after {
+    left: 0;
+    right: -55.8px;
+}
+
+.event p{
+    width: 600px;
+}
